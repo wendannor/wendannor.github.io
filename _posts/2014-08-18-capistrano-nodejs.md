@@ -140,7 +140,7 @@ set :deploy_to, '/var/www/test_app'
 The above lines indicate :
 
 - what's the name of your application
-- where it can find it from its git URL 
+- the location of your git repository 
 - where to deploy in the destination server.
 
 Make sure that :
@@ -155,7 +155,7 @@ mkdir -p /var/www/test_app
 chown -R deploy:deploy /var/www/test_app
 ```  
 
-Then replace into `config/deploy.rb` `the namespace :deploy do` section with the following one :
+Then replace into `config/deploy.rb` the `namespace :deploy do` section with the following one :
 
 ```ruby
 namespace :deploy do
@@ -188,7 +188,7 @@ end
 
 ```
 
-The section above will describe 3 tasks :
+The section above will describe 3 tasks for the deploy namespace:
 
 - stop every forever instance on the server (it's a bit brutal and not advised if you have multiple nodejs instance on the server using forever)
 - install the different modules required for the project
@@ -242,6 +242,8 @@ INFO Uploading /tmp/test_app/git-ssh.sh 100.0%
 DEBUG[8f30fec2] Command: echo "Branch master (at 11d2638) deployed as release 20140818152948 by wendannor" >> /var/www/test_app/revisions.log
 INFO[8f30fec2] Finished in 0.037 seconds with exit status 0 (successful).
 ```
+
+Hope this post helped you deploy your nodejs application with Capistrano.
 
 ##Sources :
 [http://capistranorb.com/documentation/g](http://capistranorb.com/documentation/g)
