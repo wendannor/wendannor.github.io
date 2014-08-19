@@ -1,0 +1,45 @@
+# Dependencies
+markdown:	redcarpet
+pygments:	true
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		"Because it's possible"
+tagline:	'blog'
+description:	'My personal blog.'
+url:		http://wendannor.github.com
+
+author:
+  name:		'Wendannor'
+  url:		http://www.google.com
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.png
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/wendannor
+    desc:	Follow me on twitter
+
+  - icon:	github
+    url:	https://github.com/wendannor
+    desc:	Fork me on github
+
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About
+    url:	/about
+    
+copyright:
+  author:	Wendannor
+  url:		https://twitter.com/wendannor
+  type_title:	All right reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
