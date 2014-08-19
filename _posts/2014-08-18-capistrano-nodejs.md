@@ -207,9 +207,9 @@ We are almost done, we need to configure the `config/deploy/production.rb` where
 Replace the content of your file with the following :
 
 ```ruby
-role :app, %w{deploy@178.62.9.109}
+role :app, %w{deploy@0.0.0.0}
 
-server '178.62.9.109', user: 'deploy', roles: %w{app}
+server '0.0.0.0', user: 'deploy', roles: %w{app}
 
 set :default_env, {
   'NODE_ENV' => 'production'
