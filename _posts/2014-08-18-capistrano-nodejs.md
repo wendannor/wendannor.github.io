@@ -1,6 +1,7 @@
 ---
 title: Deploy NodeJS project with Capistrano
 layout: post
+published: true
 ---
 
 ## Install Capistrano
@@ -246,7 +247,4 @@ INFO[8f30fec2] Finished in 0.037 seconds with exit status 0 (successful).
 Hope this post helped you deploy your nodejs application with Capistrano.
 
 ##Sources :
-[http://capistranorb.com/documentation/g](http://capistranorb.com/documentation/g)
-
-
-
+[http://capistranorb.com/](http://capistranorb.com/)
