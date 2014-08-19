@@ -2,6 +2,7 @@
 title: Deploy NodeJS project with Capistrano
 layout: post
 published: true
+comments: true
 ---
 
 ## Install Capistrano

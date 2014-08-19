@@ -30,14 +30,13 @@ social:
     url:	https://github.com/wendannor
     desc:	Fork me on github
 
-    
 menu:
   - title:	Home
     url:	/
     
   - title:	About
     url:	/about
-    
+
 copyright:
   author:	Wendannor
   url:		https://twitter.com/wendannor
