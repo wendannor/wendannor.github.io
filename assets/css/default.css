@@ -446,6 +446,11 @@ pre code {
 	text-decoration: none;
 }
 
+span.template {
+text-decoration: none;
+text-transform: none;
+}
+
 #post-list {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	top: 50px;
