@@ -96,6 +96,9 @@ sudo apt-get install nodejs npm
 sudo apt-get install git
 ```
 
+If your server is running on ubuntu you might need to create a symlink for node like so `sudo ln -s /usr/bin/nodejs /usr/bin/node`.
+More info on [Stack Overflow](https://stackoverflow.com/questions/18130164/nodejs-vs-node-on-ubuntu-12-04)
+
 ### Forever
 
 We are going to use **forever** for nodejs which make sure a nodejs process will always stays up.
