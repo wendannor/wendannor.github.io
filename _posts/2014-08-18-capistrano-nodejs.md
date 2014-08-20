@@ -86,14 +86,14 @@ More info on this section on [capistrano website](http://capistranorb.com/docume
 
 ### Nodejs and npm
 
-If it not already the case, we have to install **nodejs** and **npm** on our server.
+If it's not already the case, we have to install **nodejs** and **npm** on our server.
 **Git** has to be install too in order for Capistrano to clone the repo.
 
 
 ```
 sudo apt-get update
 sudo apt-get install nodejs npm
-sudo apt-get git
+sudo apt-get install git
 ```
 
 ### Forever
